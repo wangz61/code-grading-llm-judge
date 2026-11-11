@@ -1,0 +1,5 @@
+# Evals only routes model names it already knows to the chat endpoint, so gpt-4.1 is registered explicitly.
+gpt-4.1-chat:
+  class: evals_ext:ChatCompletionFn
+  args:
+    model: gpt-4.1

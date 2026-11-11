@@ -1,0 +1,8 @@
+.venv/
+.venv-ls/
+__pycache__/
+.pytest_cache/
+labelstudio/ls_data/
+labelstudio/.env.local
+labelstudio/server.log
+results/install_*.log

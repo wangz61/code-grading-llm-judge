@@ -1,0 +1,17 @@
+== code-grading: 5 runs x 5 samples
+
+sample                      r1 r2 r3 r4 r5   mean    std
+add two numbers              5  5  5  5  5   5.00   0.00
+reverse a string             5  5  5  5  5   5.00   0.00
+check if a number is even    4  4  4  4  4   4.00   0.00
+compute factorial            2  2  2  2  2   2.00   0.00
+find the maximum of a list   1  1  1  1  2   1.20   0.45
+
+Run means: 3.40, 3.40, 3.40, 3.40, 3.60   (std across runs 0.089)
+Mean score:                      3.44 / 5
+Variance between samples:        3.07   (std 1.75)
+Judge variance within a sample:  0.040
+Standard error of the mean:      0.78   (n = 5 samples)
+95% CI, t distribution:          [1.27, 5.61]
+95% CI, bootstrap over samples:  [2.08, 4.80]
+Invalid judge answers:           0

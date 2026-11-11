@@ -1,0 +1,40 @@
+[2026-11-11 16:12:32,697] [registry.py:271] Loading registry from E:\Project\CodeGradingEval\.venv\Lib\site-packages\evals\registry\evals
+[2026-11-11 16:12:33,068] [registry.py:271] Loading registry from C:\Users\Zihao Wang\.evals\evals
+[2026-11-11 16:12:33,069] [registry.py:271] Loading registry from evals_registry\evals
+[2026-11-11 16:12:34,022] [_client.py:1084] HTTP Request: GET https://api.openai.com/v1/models "HTTP/1.1 200 OK"
+[2026-11-11 16:12:34,026] [registry.py:271] Loading registry from E:\Project\CodeGradingEval\.venv\Lib\site-packages\evals\registry\completion_fns
+[2026-11-11 16:12:34,029] [registry.py:271] Loading registry from C:\Users\Zihao Wang\.evals\completion_fns
+[2026-11-11 16:12:34,029] [registry.py:271] Loading registry from evals_registry\completion_fns
+[2026-11-11 16:12:34,029] [registry.py:271] Loading registry from E:\Project\CodeGradingEval\.venv\Lib\site-packages\evals\registry\solvers
+[2026-11-11 16:12:34,146] [registry.py:271] Loading registry from C:\Users\Zihao Wang\.evals\solvers
+[2026-11-11 16:12:34,146] [registry.py:271] Loading registry from evals_registry\solvers
+[2026-11-11 16:12:34,148] [oaieval.py:215] [1;35mRun started: 261111211234NABWXDFA[0m
+[2026-11-11 16:12:34,149] [registry.py:271] Loading registry from E:\Project\CodeGradingEval\.venv\Lib\site-packages\evals\registry\modelgraded
+[2026-11-11 16:12:34,160] [registry.py:271] Loading registry from C:\Users\Zihao Wang\.evals\modelgraded
+[2026-11-11 16:12:34,160] [registry.py:271] Loading registry from evals_registry\modelgraded
+[2026-11-11 16:12:34,162] [data.py:94] Fetching evals_registry/data/code_grading/samples.jsonl
+[2026-11-11 16:12:34,165] [eval.py:36] Evaluating 5 samples
+[2026-11-11 16:12:34,170] [eval.py:144] Running in threaded mode with 10 threads!
+
+  0%|          | 0/5 [00:00<?, ?it/s][2026-11-11 16:12:36,800] [_client.py:1084] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+
+ 20%|██        | 1/5 [00:02<00:10,  2.64s/it][2026-11-11 16:12:36,910] [_client.py:1084] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+
+ 40%|████      | 2/5 [00:02<00:03,  1.15s/it][2026-11-11 16:12:37,080] [_client.py:1084] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+
+ 60%|██████    | 3/5 [00:02<00:01,  1.43it/s][2026-11-11 16:12:38,708] [_client.py:1084] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+
+ 80%|████████  | 4/5 [00:04<00:01,  1.07s/it][2026-11-11 16:12:40,695] [_client.py:1084] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+
+100%|██████████| 5/5 [00:06<00:00,  1.40s/it]
+100%|██████████| 5/5 [00:06<00:00,  1.31s/it]
+[2026-11-11 16:12:40,708] [record.py:371] Final report: {'counts/2': 2, 'counts/5': 2, 'counts/4': 1, 'score': 3.6, 'usage_completion_tokens': 2256, 'usage_prompt_tokens': 2486, 'usage_total_tokens': 4742}. Logged to results/runs/code-grading-t1/run_1.jsonl
+[2026-11-11 16:12:40,709] [oaieval.py:233] Final report:
+[2026-11-11 16:12:40,709] [oaieval.py:235] counts/2: 2
+[2026-11-11 16:12:40,709] [oaieval.py:235] counts/5: 2
+[2026-11-11 16:12:40,709] [oaieval.py:235] counts/4: 1
+[2026-11-11 16:12:40,709] [oaieval.py:235] score: 3.6
+[2026-11-11 16:12:40,709] [oaieval.py:235] usage_completion_tokens: 2256
+[2026-11-11 16:12:40,709] [oaieval.py:235] usage_prompt_tokens: 2486
+[2026-11-11 16:12:40,710] [oaieval.py:235] usage_total_tokens: 4742
+[2026-11-11 16:12:40,715] [record.py:360] Logged 10 rows of events to results/runs/code-grading-t1/run_1.jsonl: insert_time=4.510ms

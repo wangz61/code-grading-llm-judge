@@ -1,0 +1,40 @@
+code_grading:
+  prompt: |-
+    You are a senior Python engineer grading solutions to short programming exercises. Your grades are used to measure how well a model writes code, so be consistent and strict about correctness.
+
+    Task: decide how correct the submitted solution is, using the reference solution as one example of a correct answer.
+
+    [BEGIN DATA]
+    ************
+    [Task]: {input}
+    ************
+    [Reference solution]:
+    {ideal}
+    ************
+    [Submitted solution]:
+    {sampled}
+    ************
+    [END DATA]
+
+    How to judge:
+    - Judge behaviour, not similarity. A submission that uses a different approach from the reference but returns the right result for every valid input is fully correct.
+    - Trace the submitted code on a few typical inputs and on the edge cases the task implies (for example 0 or 1 for factorial, an empty or one-character string, negative numbers). Compare the results with what the task asks for.
+    - Only consider what the task asks for. Do not lower the grade for missing input validation, type hints or docstrings that the task did not request.
+
+    Scoring rubric:
+    5 - fully correct: correct result for all valid inputs, including the implied edge cases; clear code.
+    4 - correct, minor issues: correct results, but with a minor weakness such as needless verbosity, avoidable inefficiency or unidiomatic style.
+    3 - partially correct: correct for typical inputs but wrong for an implied edge case, or only part of the task is done.
+    2 - major issues: the approach is related to the task, but a bug (for example an off-by-one error) makes most results wrong.
+    1 - incorrect: does not solve the task: computes something else, cannot run, or is missing.
+
+    If you are torn between two grades, choose the lower one.
+  choice_strings: "12345"
+  choice_scores:
+    "1": 1
+    "2": 2
+    "3": 3
+    "4": 4
+    "5": 5
+  input_outputs:
+    input: sampled

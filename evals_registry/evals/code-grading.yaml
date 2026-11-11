@@ -1,0 +1,30 @@
+code-grading:
+  id: code-grading.dev.v0
+  description: Grade model-written Python functions from 1 to 5 against a human reference solution, with an LLM judge.
+  metrics: [score]
+
+code-grading.dev.v0:
+  class: evals.elsuite.modelgraded.classify:ModelBasedClassify
+  args:
+    samples_jsonl: code_grading/samples.jsonl
+    modelgraded_spec: code_grading
+    eval_type: cot_classify
+    eval_kwargs:
+      temperature: 0
+      max_tokens: 1024
+
+# Same eval with the judge sampled at temperature 1, to measure how much the judge's own randomness moves the scores.
+code-grading-t1:
+  id: code-grading-t1.dev.v0
+  description: code-grading with the judge at temperature 1 (judge-variance study).
+  metrics: [score]
+
+code-grading-t1.dev.v0:
+  class: evals.elsuite.modelgraded.classify:ModelBasedClassify
+  args:
+    samples_jsonl: code_grading/samples.jsonl
+    modelgraded_spec: code_grading
+    eval_type: cot_classify
+    eval_kwargs:
+      temperature: 1
+      max_tokens: 1024

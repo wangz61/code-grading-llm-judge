@@ -1,0 +1,367 @@
+[
+  {
+    "id": 1,
+    "annotations": [
+      {
+        "id": 1,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "choices": [
+                "easy"
+              ]
+            },
+            "id": "m7OxT0KLLB",
+            "from_name": "difficulty",
+            "to_name": "input",
+            "type": "choices",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "text": [
+                "def add(a, b):\n    return a + b\n"
+              ]
+            },
+            "id": "qIBnN0N0LK",
+            "from_name": "ideal",
+            "to_name": "input",
+            "type": "textarea",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2026-11-11T21:09:49.151384Z",
+        "updated_at": "2026-11-11T21:09:49.151384Z",
+        "draft_created_at": null,
+        "lead_time": 1.705,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "82d8ddfd-c99e-44f8-a241-d370055509db",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1,
+        "project": 1,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "c4c327f1-hw0-07_inputs.csv",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "input": "Write a Python function to add two numbers."
+    },
+    "meta": {},
+    "created_at": "2026-11-11T21:06:38.663660Z",
+    "updated_at": "2026-11-11T21:09:49.232114Z",
+    "allow_skip": true,
+    "inner_id": 1,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 2,
+    "annotations": [
+      {
+        "id": 2,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "choices": [
+                "easy"
+              ]
+            },
+            "id": "M_meUMm88G",
+            "from_name": "difficulty",
+            "to_name": "input",
+            "type": "choices",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "text": [
+                "def reverse_string(s):\n    return s[::-1]\n"
+              ]
+            },
+            "id": "MjtiIIMTLk",
+            "from_name": "ideal",
+            "to_name": "input",
+            "type": "textarea",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2026-11-11T21:09:53.272144Z",
+        "updated_at": "2026-11-11T21:09:53.272144Z",
+        "draft_created_at": null,
+        "lead_time": 3.787,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "fdea93c6-ecdc-48c0-8853-2bb08396be5f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 2,
+        "project": 1,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "c4c327f1-hw0-07_inputs.csv",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "input": "Write a Python function to reverse a string."
+    },
+    "meta": {},
+    "created_at": "2026-11-11T21:06:38.664170Z",
+    "updated_at": "2026-11-11T21:09:53.339917Z",
+    "allow_skip": true,
+    "inner_id": 2,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 3,
+    "annotations": [
+      {
+        "id": 3,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "choices": [
+                "easy"
+              ]
+            },
+            "id": "An28Ghc3S_",
+            "from_name": "difficulty",
+            "to_name": "input",
+            "type": "choices",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "text": [
+                "def is_even(n):\n    return n % 2 == 0\n"
+              ]
+            },
+            "id": "dpUWx0n5Kd",
+            "from_name": "ideal",
+            "to_name": "input",
+            "type": "textarea",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2026-11-11T21:09:57.389280Z",
+        "updated_at": "2026-11-11T21:09:57.389280Z",
+        "draft_created_at": null,
+        "lead_time": 3.806,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "43f6a82e-d568-4dd3-8fd9-3b3ac1e5770c",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 3,
+        "project": 1,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "c4c327f1-hw0-07_inputs.csv",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "input": "Write a Python function to check if a number is even."
+    },
+    "meta": {},
+    "created_at": "2026-11-11T21:06:38.664170Z",
+    "updated_at": "2026-11-11T21:09:57.461424Z",
+    "allow_skip": true,
+    "inner_id": 3,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 4,
+    "annotations": [
+      {
+        "id": 4,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "choices": [
+                "medium"
+              ]
+            },
+            "id": "1PbdiWB6Ak",
+            "from_name": "difficulty",
+            "to_name": "input",
+            "type": "choices",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "text": [
+                "def factorial(n):\n    if n < 0:\n        raise ValueError(\"factorial is not defined for negative numbers\")\n    result = 1\n    for i in range(2, n + 1):\n        result *= i\n    return result\n"
+              ]
+            },
+            "id": "HWYWXRX9aK",
+            "from_name": "ideal",
+            "to_name": "input",
+            "type": "textarea",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2026-11-11T21:10:01.524666Z",
+        "updated_at": "2026-11-11T21:10:01.524666Z",
+        "draft_created_at": null,
+        "lead_time": 3.808,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "4b452792-3f7b-482a-98b4-a9ac459903b0",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 4,
+        "project": 1,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "c4c327f1-hw0-07_inputs.csv",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "input": "Write a Python function to compute factorial."
+    },
+    "meta": {},
+    "created_at": "2026-11-11T21:06:38.664170Z",
+    "updated_at": "2026-11-11T21:10:01.599146Z",
+    "allow_skip": true,
+    "inner_id": 4,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 1,
+    "comment_authors": []
+  },
+  {
+    "id": 5,
+    "annotations": [
+      {
+        "id": 5,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "choices": [
+                "easy"
+              ]
+            },
+            "id": "g9m5Zgf4Pk",
+            "from_name": "difficulty",
+            "to_name": "input",
+            "type": "choices",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "text": [
+                "def find_max(nums):\n    if not nums:\n        raise ValueError(\"find_max() of an empty list\")\n    largest = nums[0]\n    for x in nums[1:]:\n        if x > largest:\n            largest = x\n    return largest\n"
+              ]
+            },
+            "id": "kZpkN9FRBG",
+            "from_name": "ideal",
+            "to_name": "input",
+            "type": "textarea",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2026-11-11T21:10:05.658907Z",
+        "updated_at": "2026-11-11T21:10:05.658907Z",
+        "draft_created_at": null,
+        "lead_time": 3.818,
+        "prediction": {},
+        "result_count": 2,
+        "unique_id": "d303633e-1dd2-4b0e-a941-f2f7479cc91f",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 5,
+        "project": 1,
+        "updated_by": 1,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "c4c327f1-hw0-07_inputs.csv",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "input": "Write a Python function to find the maximum of a list."
+    },
+    "meta": {},
+    "created_at": "2026-11-11T21:06:38.664170Z",
+    "updated_at": "2026-11-11T21:10:05.734707Z",
+    "allow_skip": true,
+    "inner_id": 5,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 1,
+    "comment_authors": []
+  }
+]

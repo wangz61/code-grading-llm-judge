@@ -1,0 +1,19 @@
+<View>
+  <Style>
+    .task { font-size: 16px; font-weight: 600; padding: 8px 12px; background: #f4f6fa; border-radius: 6px; }
+    .lsf-textarea, textarea { font-family: Consolas, monospace; }
+  </Style>
+  <Header value="Programming task (input)"/>
+  <View className="task">
+    <Text name="input" value="$input"/>
+  </View>
+  <Header value="Reference solution (ideal): a correct, idiomatic Python implementation"/>
+  <TextArea name="ideal" toName="input" rows="8" editable="true" maxSubmissions="1" required="true"
+            placeholder="def ..." showSubmitButton="false"/>
+  <Header value="Difficulty"/>
+  <Choices name="difficulty" toName="input" choice="single" showInline="true" required="true">
+    <Choice value="easy"/>
+    <Choice value="medium"/>
+    <Choice value="hard"/>
+  </Choices>
+</View>
